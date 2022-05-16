@@ -36,9 +36,7 @@ const App: React.FC = () => {
     const data = await getUserInfoByQq({ qq });
     console.log(data);
     setUserInfo(data);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
+    setLoading(false);
   }, [qq]);
 
   return (

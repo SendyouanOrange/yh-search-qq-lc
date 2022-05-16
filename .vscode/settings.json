@@ -1,0 +1,133 @@
+{
+    "files.associations": {
+        ".code-workspace": "jsonc",
+        ".babelrc": "json",
+        ".eslintrc": "jsonc",
+        ".eslintrc*.json": "jsonc",
+        ".stylelintrc": "jsonc",
+        "stylelintrc": "jsonc",
+        ".htmlhintrc": "jsonc",
+        "htmlhintrc": "jsonc",
+        "Procfile*": "shellscript",
+        "README": "markdown"
+    },
+    "files.exclude": {
+        "**/*/adapters/**/index.ts": true,
+        "**/*/adapters/**/index.js": true
+    },
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+        "**/build": true,
+        "**/output": true,
+        "**/dist": true,
+        "**/yarn.lock": true,
+        "**/package-lock.json": true,
+        "**/*.log": true,
+        "**/*.pid": true,
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    //
+    "editor.rulers": [80, 120],
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    //
+    "todo-tree.general.tags": ["TODO:", "FIXME:", "NOTICE:"],
+    "todo-tree.highlights.defaultHighlight": {
+        "gutterIcon": true
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO:": {
+        "foreground": "#fff",
+        "background": "#ffbd2a",
+        "iconColour": "#ffbd2a"
+        },
+        "FIXME:": {
+        "foreground": "#fff",
+        "background": "#f06292",
+        "icon": "flame",
+        "iconColour": "#f06292"
+        }
+    },
+    //
+    "cSpell.diagnosticLevel": "Hint",
+    "eslint.alwaysShowStatus": true,
+    "eslint.nodePath": "./node_modules",
+    "eslint.run": "onType",
+    "eslint.trace.server": "verbose",
+    "eslint.options": {
+        "rules": {
+        "no-debugger": "off"
+        }
+    },
+    "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.workingDirectories": [
+      "./{PATH_TO_CLIENT}" // replace {PATH_TO_CLIENT} with you own path
+    ],
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": true,
+    // "typescript.suggest.paths": false,
+    "typescript.suggest.includeCompletionsForImportStatements": true,
+    "flow.enabled": false,
+    //
+    "stylelint.enable": true,
+    "css.validate": true,
+    "scss.validate": true,
+    "less.validate": true,
+    //
+    "htmlhint.enable": true,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 200,
+    "prettier.semi": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSpacing": true,
+    "prettier.jsxBracketSameLine": true,
+    //
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
+    //
+    "json.format.enable": true,
+    "[json]": {
+        "editor.tabSize": 2,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.tabSize": 2,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "stylelint.validate": [
+        "css",
+        "less",
+        "sass",
+        "scss",
+        "postcss",
+        "html",
+        "source.css.styled",
+        "styled-css",
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown"
+    ],
+    "json.schemaDownload.enable": false
+}
+
